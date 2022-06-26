@@ -1,0 +1,783 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: fb9cc72222138b448819f4f025bbeaf0
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room0.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room1.unity
+    guid: 5afaf932c58ad2746ba5bc1c07b1f412
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room2.unity
+    guid: 13f7bdb39f36e5e4e94034a530071d45
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight0.unity
+    guid: 48018eafe33f5a946b8bb35b4ebb3e85
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room3.unity
+    guid: 8f71321391e27694ba7a64af72a87254
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight1.unity
+    guid: 2f410e57a23cb4e4e94be87811dba7cf
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room4.unity
+    guid: 07cfff784ac22cf4b9be32ddff6d4f28
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room5.unity
+    guid: 197c1a80fb5e81c43909420898f81ddf
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight2.unity
+    guid: 98d7434cf0883ad419d00de51304bca9
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room6.unity
+    guid: d0d88ca77120c0746b36dd49f4b07d23
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight3.unity
+    guid: b01f20e8ebb78d541bb102a6c4de4b2d
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight4.unity
+    guid: 4b228785e61280a4db22bd8e578eb394
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room7.unity
+    guid: 5920dbf944d24ff4d9b471f75fef3616
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight5.unity
+    guid: 8bc11b476c7831f4ab5d333b13facc3f
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/Platformer1.unity
+    guid: a90ed82aea2b4004498362f5c01ff886
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight6.unity
+    guid: bb5afae5b76442d488aa7868b41545a0
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom2.unity
+    guid: 959038883203f444497b3bc96d334c51
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight7.unity
+    guid: 23098dffa0e47cc48acd23aee65de722
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room8.unity
+    guid: 430db86f788b54843aa0c08c5fa822be
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room9.unity
+    guid: 5c2f8f2849b09f5448d336e2736893fe
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room10.unity
+    guid: 54bb45b9b472f444588fd5617c6b15f9
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/END.unity
+    guid: 77016750e633e264caceaf2b39a2104c
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom3.unity
+    guid: d719da83efe55214e8e90b3e0fc7bb9c
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room0-2.unity
+    guid: b8d88b88569ce2a4cb3de4cd9bbd831f
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight0-2.unity
+    guid: b23fe68610ff32b489cf79304f42eb73
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room1-2.unity
+    guid: 2be51ef4f324f2b469ccd8b75e2b4546
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room2-2.unity
+    guid: c0e11d94385fec24ba9ca0d14d49a207
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight1-2.unity
+    guid: f9283b2382c2a19498df02f9a47a9543
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight8.unity
+    guid: cf2831bb0c5545c4d9711635a0ffe7d6
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom4.unity
+    guid: 7482657759b5c4046a157671f4d6b079
+  - enabled: 1
+    path: Assets/deltafate/gameover.unity
+    guid: 86fc97eff2a4e8043baec43503ff1f0a
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight2-2.unity
+    guid: 7c7c96f109572664abff6b2fe21c060e
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room3-2.unity
+    guid: a2ebca90cc0eb8e41a4b51f70c90b724
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room4-2.unity
+    guid: a4a0011e81019af4d959050d1d09e348
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room5-2.unity
+    guid: b44292193f90d234480e6b87d138ed52
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight3-2.unity
+    guid: 3422059693347e4449e092f95203e638
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom5.unity
+    guid: 9cab53dc557a19f428db1ba11ad5f0f0
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room6-2.unity
+    guid: 2597572be52743e4caff8a2fedf2a5eb
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room7-2.unity
+    guid: 89307b40547167242ab579e3a1a42c29
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room8-2.unity
+    guid: 170222d416811cf4f9314e1f5f6e530e
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight4-2.unity
+    guid: 3cb1e05a34806e24eb03165213ef6a61
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom7.unity
+    guid: c3944609147178e4084013131e83bd27
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room9-2.unity
+    guid: a7dcd63bf6dd4084da83bd844572499e
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight5-2.unity
+    guid: e275505f341c91d42aae0c96876f57d0
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room10-2.unity
+    guid: 26eed49cacb300a4c871f27c4196d3d9
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight6-2.unity
+    guid: 05437cdb53cae664e9b186bf6e68140f
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room11-2.unity
+    guid: e30e0884ad3a3ec469ca406bbcd24f90
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room12-2.unity
+    guid: 02b5b43042f361c4b9d60dfcac74c2ef
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room13-2.unity
+    guid: 349b3ac63e0e8244697172fdd54643df
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room14-2.unity
+    guid: bb303b1bcf9ecc24f885346f8b558394
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/katscene_1-2.unity
+    guid: 375abfae5ecb2754fa0a55edc67755cf
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room0-3.unity
+    guid: 3cee06c91e450824f990a0d4a741ead8
+  - enabled: 1
+    path: Assets/deltafate/charakter 6/Fight0-3.unity
+    guid: 558e23e504cb99b478de51d94703cc40
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight1-3.unity
+    guid: 9adf9e8fdb6c2fc4fbed32cdabed814e
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room1-3.unity
+    guid: f6cdcdb9dab330f4c9da782270a29f49
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom8.unity
+    guid: d7fa304611100b1418f451a949b61144
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight2-3.unity
+    guid: f17424593a3bd644796343a75705b9db
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/dence.unity
+    guid: c4d7d6675fed48b43b51ab478d17299a
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/dence 1.unity
+    guid: ccee76c5deb75b34fb8266fb9accdcf1
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room2-3.unity
+    guid: d2c7c0ae7ae1ef54c984171711b6f440
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room11.unity
+    guid: 56275c6575584f345833f034d8268f49
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room3-3.unity
+    guid: 1d638033703f70a42a8a9d1d612130f3
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/dence 2.unity
+    guid: bf74613706f323645aa02984ed727548
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/END-2.unity
+    guid: 97ab0db581f30a748a8b0a45a0c9641d
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room4-3.unity
+    guid: 0c0e22ac4166af04da2124403adfe5d3
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom9.unity
+    guid: 56cdfc3ea2eefef43841d84835347b57
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight3-3.unity
+    guid: 696aa7873c420cf4a9440785af4fc0ba
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room5-3.unity
+    guid: a2f5f9ff2610af647bc805ec75c58e53
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room6-3.unity
+    guid: 9ed0f9c9689f9aa47a9280b8b77bdc9f
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight4-3.unity
+    guid: 7161b374f304bb24db9d82f04f9f6952
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight5-3.unity
+    guid: 522ac01f360516a4d999d53cfcef2559
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room7-3.unity
+    guid: da7ff0be5e276644b9295c1ad6b2370d
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/dence 3.unity
+    guid: 57e286ea58cdf93489fdb49469fd697b
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room8-3.unity
+    guid: f12fd6036e8e9cc4c8bdb0de5abd8bfe
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/menu2.unity
+    guid: f01bdaf0c73e2d642bcd9bcaa9e64767
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room9-3.unity
+    guid: 3ea8e2fb93ab871459fd8143d02f1512
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/dence 4.unity
+    guid: 8a68d2ec91860c24d98364994f8b7bdc
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room10-3.unity
+    guid: a2bbe448717855a489a8f69d3db19088
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room11-3.unity
+    guid: 16d8e71c2658f9f4bb3a38a4f89c8e8c
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room20-3.unity
+    guid: dd9910505cfb2db44831141d0acb22ab
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight9.unity
+    guid: bb7c878ab4ad409448ef9903e4059fce
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room47-5.unity
+    guid: 7fc706744e55ab440a2d971679b51576
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight0-5.unity
+    guid: 3db22041d0c533d43bc5775b012b73e7
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight1-5.unity
+    guid: ea4c65758ee5772418da03776bb5aa0b
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room12-3.unity
+    guid: d355389898001a64b9e20cb58919b839
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room13-3.unity
+    guid: 422e5ffee12a94143a509b9853b4b4f3
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/newFight0-3.unity
+    guid: da298eb2f8bc29647a3766798e263053
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/newroom0-3.unity
+    guid: 860727c6a898e364fa6135a8d84b0f2f
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room0-5.unity
+    guid: 759351066b08fd54ea7fe17af5fa8cc8
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room14f-3.unity
+    guid: 1ae0ede1c6a30c341b9786367d9436f6
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room14-3.unity
+    guid: d3ffa8c7f19aa1e42acd15e07d95b35e
+  - enabled: 1
+    path: Assets/deltafate/Secret chapter/scenes/room0-X.unity
+    guid: 430eaa29911e7e84b89df1b7f1799f42
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room15-3.unity
+    guid: caed18770bcfb5c4cb0d6d8c3d75d7bc
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight6-3.unity
+    guid: 2313a9a1d7ff0b44fa6e7237087e9a6f
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room16-3.unity
+    guid: 32ab10e06da620a4f9625a9babb1905a
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room17-3.unity
+    guid: b5de4854fdf7dd6429cd98020e4e63f2
+  - enabled: 1
+    path: Assets/ERA/TIME_0.unity
+    guid: 237e9a9ecceb7954fba3bff7c14e1f87
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room18-3.unity
+    guid: 74844ea0b4101e843bbd398cc5fb5689
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room19-3.unity
+    guid: 36908f855f0374a4dabc30c49c6e0dd4
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room21-3.unity
+    guid: 8ad9e8f53114f5f4cae31f06b3fa47cb
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/alexandrunuticna fnf.unity
+    guid: fa332c8d07719cf46b38fb1a1c4b77b5
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight7-3.unity
+    guid: 18d109b46396bb943b8a4d510cdb8fef
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/room22-3.unity
+    guid: dd0e63bf6ae867141986fde417ddbfa6
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room0-4.unity
+    guid: 06f1fe171de221e4f927df6c4ce239b5
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room1-4.unity
+    guid: 9dcce4816c9e85c44a22e3055ed4b92a
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room2-4.unity
+    guid: 0867aa221c184a84f9a2f7a0ced71c2e
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/news.unity
+    guid: cd1c9769d130fe549b309f3bcf7e5a19
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room3-4.unity
+    guid: bc4c03c535892474bb8156c56d70dcf1
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight0-4.unity
+    guid: 3a7e2fbadeca39a4f95960e6f3405fd7
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room4-4.unity
+    guid: 9406d1cb69979f34bae855313f60c9b4
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room5-4.unity
+    guid: a31cbe40208ea6a4781d6b1f246ce7cc
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room6-4.unity
+    guid: 6c6214467e978ab4aa3eefaa5d21c868
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room7-4.unity
+    guid: 9578803fd18b20644b83b089dbb7f023
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room8-4.unity
+    guid: 13922386b9349b74699e8fdc0531f73e
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room9_4.unity
+    guid: 97d485d03263cde44a27e5c17011d016
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room10-4.unity
+    guid: b321c38096d49f24181e46ca7c1acae1
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room11-4.unity
+    guid: 513d542ea540e7f49aa49053ce7b3b7c
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room12-4.unity
+    guid: 629872b36784a754daa96e6c1a4db72f
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight1-4.unity
+    guid: fd9f5be28f7ad5e4780a556f399a714c
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room13-4.unity
+    guid: abe9dcd931082be4b9cb5c45a4ed2a67
+  - enabled: 1
+    path: Assets/ERA/menus.unity
+    guid: a91febec6d827d54e94b7bc021204c1b
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room14-4.unity
+    guid: 1ac62eca2f78b7144902ac18b8e382ed
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room15-4.unity
+    guid: bdbbe2ac771e7d54486b1f8e672e8941
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room16-4.unity
+    guid: e790148f0129d8346b53da5ba79a5a64
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room17-4.unity
+    guid: 78bd647ce2b43ee479df2afe7835e1b0
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room60-5.unity
+    guid: 4c4bd3ba718b8de4d8f2ba150dd6d346
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room18-4.unity
+    guid: fe0524498baf31749bc972835e532d46
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/END-3.unity
+    guid: 49aa589a13efd1f469b01fd991380b5f
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room19-4.unity
+    guid: a74d3d6ced4d7ce4c90061f7f9e02995
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room20-4.unity
+    guid: bf7af63fea2473a43b14c83010c6a894
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room21-4.unity
+    guid: 7b1291e05578cc7459243037882a5933
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom13.unity
+    guid: 5d995ef273b3e28499222b00b23c375d
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room22-4.unity
+    guid: 034987e588670b34ea2fce5df65df893
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight2-4.unity
+    guid: 73dfab762ace53f45bd7fad175d2f478
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room23-4.unity
+    guid: 8252d040310b87242b8bcee161b4f0b3
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/deluxlevel0-4.unity
+    guid: 206f587a31c985149adeedc8822d61bf
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/lineroom0-4.unity
+    guid: 830f7721dc3c7204b88248f01966c4a5
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room24-4.unity
+    guid: f2f978db2a49a7647bc152368729901a
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/KATSCENE.unity
+    guid: 8f008f7eb72c4ae4fbdcd13a485c5bbe
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/titres.unity
+    guid: a87619aa2f2fd184ba98f1f4f1a60fbc
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room25-4.unity
+    guid: e4a851ac253bb5a429a63f2d6a1e9896
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/epilog.unity
+    guid: 3c436f428003ad84d8c97667532cff86
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/epilog2.unity
+    guid: 51136c82b24eba24599ec85c192e2b8c
+  - enabled: 1
+    path: Assets/deltafate/setnikname.unity
+    guid: 7213162449daa1547b3e7ccf493cc434
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/home papyrus.unity
+    guid: 3bfae912558a95e4aa6439f74d46b259
+  - enabled: 1
+    path: Assets/deltafate/survival/survival.unity
+    guid: e071ee703be1f3041a0ba19a222b8afd
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom13 1.unity
+    guid: 265a17fae2e0de4458a06697db10195c
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom13 2.unity
+    guid: accdafc85c55183409555d1936e7d07a
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom13 3.unity
+    guid: 3f2f92278a8577b40baa06b6b92e1762
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom13 4.unity
+    guid: 4152e9ce2f19f2e4e881925120b6db7c
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room26-4.unity
+    guid: 6c6ccda9cc761944faa264d695f31a1b
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight3-4.unity
+    guid: c2338987ba45b5f4a8aafe3aa963cdec
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/bibyoty.unity
+    guid: 3aa3164ca8aa1d94a9a65a6eaeb13702
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room27-4.unity
+    guid: 2df1b65c7f0acf440a212eba3cfd1a92
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/KATSCENE 2.unity
+    guid: 42fbbea826672da40994a011ddbd4512
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room28-4.unity
+    guid: dee9f7c7273197a488bfd6ff7386a1fc
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight4-4.unity
+    guid: 97699e5e5437bef46bfabb2c3802f3ea
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room29-4.unity
+    guid: a79757e778c46bd44b1ed52b05fdaea4
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room1-5.unity
+    guid: fa9b69d69bd44af44b2b4bd83d225b53
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room30-4.unity
+    guid: 1173ab21c37d85f44bf7148bb8c265df
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room31-4.unity
+    guid: 39a2d2f053faf9c45a0642eae9036f07
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room12-x.unity
+    guid: ece606f34a488524287adde85b9943d6
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room40-4.unity
+    guid: 6391d500b8cddef449d0f83abe7d08f1
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room13-x.unity
+    guid: dddc27531848e9642b4f7a5b7601d979
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room14-x.unity
+    guid: 9d5d8e2790b2c2a4dac7d42f459d4da4
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room32-4.unity
+    guid: 848e63952236bf941b6bec5e55961005
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room2-5.unity
+    guid: cb99d46f867432941b61cfcb8fd5a3b2
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room33-4.unity
+    guid: 4856bb27bb505cd4e8a1d227ce4744b4
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room34-4.unity
+    guid: 2af0dd3012a0258448cf16ca425cef34
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room35-4.unity
+    guid: ae6d84bb0eb360c43a52037db3f372df
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room36-4.unity
+    guid: 58b3b890b19027147ba9c5898c875b5b
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room37-4.unity
+    guid: edeec50d8d2041a4aaef70b989f70b70
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight5-4.unity
+    guid: 60f85dc415e55b04cb40318e32d1a4c3
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room38-4.unity
+    guid: 865b345c1a4fb0b41a265d2fe061b05b
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room39-4.unity
+    guid: 3bd6fa553add07e4089c7cc867dcf887
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/END-4.unity
+    guid: 38d9c7aa323b61a448d851fe0617ac4f
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room3-5.unity
+    guid: dcabc51175d1b174892b08d16cdb0de0
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room4-5.unity
+    guid: 2cfa5b962bdaf354aa7e6f17e572d3dd
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/lineroom0-5.unity
+    guid: 0513638c404ff7a48a318999742e4de5
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room5-5.unity
+    guid: cd985c1a9b40f2047bd651a77dc2b235
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room6-5.unity
+    guid: 30cd625811e463f468b957e3c9ee8ee1
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room7-5.unity
+    guid: 0105ed95017178f488212760592a68f6
+  - enabled: 1
+    path: Assets/deltafate mults/scenes/scene 1/mult.unity
+    guid: 27ddc61cf223418449cc69a8ca6bb82f
+  - enabled: 1
+    path: Assets/deltafate mults/scenes/scene 2/mult 1.unity
+    guid: 267544a4e37359f42bb359ad617592d1
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room8-5.unity
+    guid: 8e7980067d087d544a909cdfef727abe
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/obs.unity
+    guid: db5bd877166ca5d4aa563806de948dc0
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight3-5.unity
+    guid: 91b52d86b08ff4f4997a416c485435ed
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Hyperroom0-5.unity
+    guid: 0efcbb6d79d9ab04681087dd49bbb1ec
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room9-5.unity
+    guid: 94b4fbb038cf58449ad27a67d9310837
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room10-5.unity
+    guid: 32e47a2c8511ae441b688ef266e158b8
+  - enabled: 1
+    path: Assets/deltafate/Secret chapter/scenes/Delate-room-1.unity
+    guid: da4f2963e7150cb41a8ec86bc272dce4
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room11-5.unity
+    guid: 0875fe2bb01fe8f418ed5f7867a87880
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room12-5.unity
+    guid: b09f6af27d4f38c419a68ed20744b000
+  - enabled: 1
+    path: Assets/controls.unity
+    guid: f0d6521667930e3429cc564eb4fdd7bb
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room13-5.unity
+    guid: 6013a92fcbdec5e48867b0c7f8ee4b9d
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room14-5.unity
+    guid: 67c69596005c92e43bd359784f84191e
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room15-5.unity
+    guid: f4dea892276d9084dafaf63030c491fc
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight4-5.unity
+    guid: 0df65e861147996489e08150cf615749
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight5-5.unity
+    guid: 2d5403a2f28f1434ba3550cd14df9759
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room16-5.unity
+    guid: 84a5879a92d5de84a8575bf46f43daa2
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room15-2.unity
+    guid: 2d3a43cd78ab24742b942a6f1a3c3ce3
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/fight7-2.unity
+    guid: 57bbf7e4e04043e4ca321a10e5831f8b
+  - enabled: 1
+    path: Assets/deltafate/gameDeath.unity
+    guid: 55737f57f0d67304f89f1936bb3a644a
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room18-5.unity
+    guid: df6be84693f97384eb6f302902a9b065
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room19-5.unity
+    guid: 5e6c6b876e5a68f4bb0c56dcf3b7fb38
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room17-5.unity
+    guid: 068f2e792ae9528449fb1c8b3e41aa10
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/roommenu20-5-1.unity
+    guid: 5e8531946ced9ef499ebc2668bb7fb62
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room21-5.unity
+    guid: 7d324a63a5d0fbe408f6d36c561206fe
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room22-5.unity
+    guid: 57f59cf3222a5e4438fc682411cea9ec
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room23-5.unity
+    guid: d5058c2689c91ce47a32744aec54148c
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight6-5.unity
+    guid: 9affc9386e9d9964faa3b7a4366e1df0
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room24-5.unity
+    guid: 97c53c8c745ef3043a4f0caf0a37320a
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room25-5.unity
+    guid: 8bee6745881e26e44a3fe499655daf52
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight7-5.unity
+    guid: f16eba47b5bd8514597950f9dfe16d9e
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room26-5.unity
+    guid: a1bc0bb081aa0c84ebae48a1df96e620
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room27-5.unity
+    guid: ad62527fb792f5f4987715cc53e21b80
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room28-5.unity
+    guid: 78f34f5fbedc2e247921655dab9b8c54
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room29-5.unity
+    guid: f93dce5603fc59a44ac6f95f66d8e9a7
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room30-5.unity
+    guid: 08e809530e24fd04f9591a770f009c44
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight10.unity
+    guid: 2132a9fedffbfab43967ea034370f4f0
+  - enabled: 1
+    path: "Assets/deltafate/character 1/Scenes/\u0432\u0430\u043C \u043D\u0430\u0434\u043E
+      \u0437\u043D\u0430\u0442\u044C.unity"
+    guid: babc6f5a1413fc74e83936ab1ae7369e
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/Fight8-5.unity
+    guid: b6a8f1058c4c3c748844a56eb5f962b7
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room31-5.unity
+    guid: 39bccd0c81e1e8a4f9b831c41c22fbed
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room32-5.unity
+    guid: dbea32d7a49672d4f84adb4a54941eec
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/Fight6-4.unity
+    guid: 0aa81cf81405c744d8eb80d12a63a7af
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room33-5.unity
+    guid: 5a14eb707ca77c949837b11a7496146d
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room34-5.unity
+    guid: f6a379c67022c3e4fa2bba5cd03187ce
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room4RP1.unity
+    guid: b29388e24b641474989b4ed3678ca608
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room5RP1.unity
+    guid: ca3d8d811fa85fc47bcd75a48cce9104
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room5RP2.unity
+    guid: 9f23f6a8384b683478ef60fdfdf7d212
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/room9RP1.unity
+    guid: 7594757840ba4ea49944c3bafb2713dd
+  - enabled: 1
+    path: Assets/Resources/prefab 1.unity
+    guid: f7d9ab363261e8344a3e11dd8322efac
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room35-5.unity
+    guid: a10afd3cfb799364789d9e220b0e5324
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room36-5.unity
+    guid: 2005ecccde3a2324fad847aadae77580
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room3-4RP1.unity
+    guid: 6cf6074ef1587a1438ac7cf6a2ffc886
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom19.unity
+    guid: 2583eb9f3e198c84a8d1360777320a21
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room37-5.unity
+    guid: 0dc0ddcf5fdb8da45a0a6e0a42c5d407
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room38-5.unity
+    guid: 1b920d956f362a6468dff957e532826d
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room38-5-2.unity
+    guid: c10b931d5e4fa894eba77b07257af204
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room0-4-2.unity
+    guid: a300f97f2520a444c93adf2cf0af6a18
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room1-4-2.unity
+    guid: 4aad2c2d4afe9854183795f619f4d3df
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room41-4.unity
+    guid: 0b12c03a76e308e4ab645063ab5709f3
+  - enabled: 1
+    path: Assets/deltafate/character 1/Scenes/fight1-c2.unity
+    guid: fc422e5197e63254585d2b31b8f15f76
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/room 0-2-alt.unity
+    guid: 99b86ba5eed6f0b41b8e58667255dce8
+  - enabled: 1
+    path: Assets/deltafate/character 4/scenes/room16-4-2.unity
+    guid: 0b054f1809e74ce40a1a36ac6360ea4f
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/room 1-2-alt.unity
+    guid: e3c7ffe070f00c5429cd93f8afc5c7fd
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/fight0-2-alt.unity
+    guid: 86108d2e3712fbd42a34583c0baf5ec0
+  - enabled: 1
+    path: Assets/deltafate mults/scenes/scene 3/New Scene.unity
+    guid: 35e6142942f47ac4496f24bb2ef5a540
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/room 2-2-alt.unity
+    guid: 20bddc9b447937a47a818ddb89d242fb
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/room 3-2-alt.unity
+    guid: 0bd10b77e7cbdf74f83483f156e70bb3
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/room 4-2-alt.unity
+    guid: 5b335fb3b7d0dec42bbcd8880109f0c4
+  - enabled: 1
+    path: Assets/deltafate/character 2/alt scenes/END-2-alt.unity
+    guid: 2eaf8cff715306e4aba6bba5f51c6253
+  - enabled: 1
+    path: Assets/deltafate/testsrooms/testroom55.unity
+    guid: 41185ccccef6a784abec0f9c572d0b36
+  - enabled: 1
+    path: Assets/deltafate mults/scenes/scene 4/New Scene.unity
+    guid: 0cf0b356146fca34c80e2fefdd35242c
+  - enabled: 1
+    path: Assets/deltafate/character 3/Scenes/Fight0-6.unity
+    guid: 7a0e2f7acca00ad499b4cd312721dc8e
+  - enabled: 1
+    path: Assets/deltafate/charakter 5/Scenes/room39-5.unity
+    guid: b75bea77b19b4994f9ed31a08924103c
+  - enabled: 1
+    path: Assets/deltafate/character 2/Scenes/room16-2.unity
+    guid: c0fa8db89a77c9f4b89f17273bfc08c6
+  m_configObjects: {}
