@@ -1,0 +1,1196 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 9198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Games\11\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/2new/DeltaFate 0.1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51303
+Successfully changed project path to: D:/2new/DeltaFate 0.1
+D:/2new/DeltaFate 0.1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path D:/Games/11/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2new/DeltaFate 0.1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Games/11/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Games/11/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Games/11/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Games/11/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Games/11/2021.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004075 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.3 MB). Loaded Objects now: 3440.
+Memory consumption went from 138.7 MB to 137.4 MB.
+Total: 4.687000 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.158500 ms MarkObjects: 3.953400 ms  DeleteObjects: 0.252900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28418.932089 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1 3.prefab
+  artifactKey: Guid(31103114a4e987a46b18bc2a6ff0f964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1 3.prefab using Guid(31103114a4e987a46b18bc2a6ff0f964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672c4162aa93df02e7dda08579fdafb1') in 0.457834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/2 2.png
+  artifactKey: Guid(d908018ea2bf9aa48bf722b2221f25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2.png using Guid(d908018ea2bf9aa48bf722b2221f25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72c012dbc79331709563adcf0ce6a6a') in 0.051030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/Canvas.prefab
+  artifactKey: Guid(c56572ac985aa874e9b24cf97b7e4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Canvas.prefab using Guid(c56572ac985aa874e9b24cf97b7e4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299b82fc54849efd0c4d4959a1f7ff6') in 0.028534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/3 я глава 1.png
+  artifactKey: Guid(ef033ed4aec0b6c4b91a98a753f49e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/3 я глава 1.png using Guid(ef033ed4aec0b6c4b91a98a753f49e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bef7767e5092b136a9de64011425eed') in 0.019873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 1.prefab
+  artifactKey: Guid(96314b503d2c5e3499d48c24225e6785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 1.prefab using Guid(96314b503d2c5e3499d48c24225e6785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122df435e926747afa481eed2fdaf2ba') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 3.prefab
+  artifactKey: Guid(81721413ad40e164880d1a35432ced4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 3.prefab using Guid(81721413ad40e164880d1a35432ced4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef3e9a75a224e40785ee8cb901307be') in 0.226527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/hero.asset
+  artifactKey: Guid(c03fc8540ef980a41b4647cb126feb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/hero.asset using Guid(c03fc8540ef980a41b4647cb126feb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ff193be97a44abaa53222002ec440d') in 0.011621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/naserif.png
+  artifactKey: Guid(38b02b3e6d600034b9a658795835e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/naserif.png using Guid(38b02b3e6d600034b9a658795835e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48c9ceef1a78effd79c82fa649aed9e') in 0.020294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/2 3 (1) 1.prefab
+  artifactKey: Guid(084c6bb355cde774e8cc16b8ee629f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3 (1) 1.prefab using Guid(084c6bb355cde774e8cc16b8ee629f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796e7d74c98425a9c9591ab0748357fe') in 0.045569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/deltafate/charakter 5/2 3 (1).prefab
+  artifactKey: Guid(02629a5b8a185e843a5e96cb7138ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3 (1).prefab using Guid(02629a5b8a185e843a5e96cb7138ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52700204339b0409c3f1e72ffa4f95e7') in 0.066528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/deltarune joctick.png
+  artifactKey: Guid(b242673a94c0cce41bf14d5efd9963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/deltarune joctick.png using Guid(b242673a94c0cce41bf14d5efd9963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8581546327dc5296804d5f0371e1b7') in 0.019365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/mifi.png
+  artifactKey: Guid(9f96e3ef4cf24d543844d37b7957b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mifi.png using Guid(9f96e3ef4cf24d543844d37b7957b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f406507e653af867a05eb914ae4ec34') in 0.031123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/Drax.png
+  artifactKey: Guid(fad5ac8e4eea74e4989004b0dc379815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Drax.png using Guid(fad5ac8e4eea74e4989004b0dc379815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bc8f8aa43161ef6c3f0a9d21b18375') in 0.019364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/deltafate/charakter 5/maar unauticna.png
+  artifactKey: Guid(6f25e9908fdc814469cae8381bab1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/maar unauticna.png using Guid(6f25e9908fdc814469cae8381bab1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db40470b0138ae18d74d07e0c7d412f1') in 0.018933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/2 3.png
+  artifactKey: Guid(9fd3ce510310b77409756bed1a26dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3.png using Guid(9fd3ce510310b77409756bed1a26dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2133697a1f301171b4952dde080af58') in 0.016625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/deltafate/charakter 5/home.png
+  artifactKey: Guid(6756009df76809e4f94adc5d841d7b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/home.png using Guid(6756009df76809e4f94adc5d841d7b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8f2125a9f2249fedf302d5c6cb20f') in 0.088803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1 (2).prefab
+  artifactKey: Guid(b1198eacb1db8a34b89419c3875f9444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1 (2).prefab using Guid(b1198eacb1db8a34b89419c3875f9444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c01e83306cca91ec1f09a428a870ad') in 0.020419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/deltafate/charakter 5/2 2.prefab
+  artifactKey: Guid(4ee2c26e70f2a9c4c89a350ac6343017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2.prefab using Guid(4ee2c26e70f2a9c4c89a350ac6343017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4c87777e0db6134e91fc4f4312699') in 0.015631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/deltafate/charakter 5/au what 1.png
+  artifactKey: Guid(3c5fc8d29c7527d43b79b615080e1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/au what 1.png using Guid(3c5fc8d29c7527d43b79b615080e1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438d200997a7a2c87765887338b85e5d') in 0.073872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/GameObject.prefab
+  artifactKey: Guid(8cc3ee5cd0412cb44931db023f737975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject.prefab using Guid(8cc3ee5cd0412cb44931db023f737975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e283016325122dd587d1f14212c30da') in 0.026754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/Canvas 1.prefab
+  artifactKey: Guid(7abdcf5ba08e91648bba2fae14ba0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Canvas 1.prefab using Guid(7abdcf5ba08e91648bba2fae14ba0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f548a086bb99fd52c6de4bead8843a1d') in 0.144919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 4.prefab
+  artifactKey: Guid(83ae6ee2b59429b4cab7e502c796b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 4.prefab using Guid(83ae6ee2b59429b4cab7e502c796b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c5d7699094031d3fe80e03ff71b05') in 0.040846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/contact.png
+  artifactKey: Guid(d584f33e20decea458f48ee0417485e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/contact.png using Guid(d584f33e20decea458f48ee0417485e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01906372ed09ba9b232dd82976aa2454') in 0.017819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/deltafate/charakter 5/Mifi-0.mp3
+  artifactKey: Guid(ea35651b7b48f5e42a46f501e4dcfabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Mifi-0.mp3 using Guid(ea35651b7b48f5e42a46f501e4dcfabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3105a137fce8864484bfdd25e0b0b510') in 0.112151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik.png
+  artifactKey: Guid(44afb87eea32e7246985cb9662338685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik.png using Guid(44afb87eea32e7246985cb9662338685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd55c246ba5d1fa8604f07adbcadd34') in 0.044174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/deltafate/charakter 5/2 2 1.prefab
+  artifactKey: Guid(54b12d859fc4df34bbbc8efb79e92942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2 1.prefab using Guid(54b12d859fc4df34bbbc8efb79e92942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6854e3952d02dd16b4cdb10cc0a99247') in 0.015228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/4 BigSet.png
+  artifactKey: Guid(1af5f37e564cdb047bf4994fd6ca50bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/4 BigSet.png using Guid(1af5f37e564cdb047bf4994fd6ca50bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958d58356b4a063b6ac3e63122eadd88') in 0.647538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/arua 3.mp3
+  artifactKey: Guid(fca15618bbcfa984c8d20d121373cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/arua 3.mp3 using Guid(fca15618bbcfa984c8d20d121373cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12be19ae677884201bcde4ad70f350b9') in 0.035243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/deltafate/charakter 5/DX alexandr unaticna.png
+  artifactKey: Guid(c8ff371ba33f7704fbfe14673c90b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DX alexandr unaticna.png using Guid(c8ff371ba33f7704fbfe14673c90b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbb961e6d699b683033d0e443a2312d') in 0.020153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/cat.png
+  artifactKey: Guid(3f4b80a920f22634781f5c7128f73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/cat.png using Guid(3f4b80a920f22634781f5c7128f73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743d4e321662353f39264ffbd72caea2') in 0.033017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/alexandr unautina full size.png
+  artifactKey: Guid(0e8bf9766ee6994408e1e4d836a906b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/alexandr unautina full size.png using Guid(0e8bf9766ee6994408e1e4d836a906b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867f19e3b22b000b3a7ca9b0e2735925') in 0.022893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/deltafate/charakter 5/au what.png
+  artifactKey: Guid(22f5598c2c455f64cbddd0be85f22ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/au what.png using Guid(22f5598c2c455f64cbddd0be85f22ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c21244f80e28ba0c3e1b96388539f94') in 0.081512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik 2.png
+  artifactKey: Guid(eeeea094fc6aaa44c99cb436edb93250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik 2.png using Guid(eeeea094fc6aaa44c99cb436edb93250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437dd6339501644dc8ff789e8cd1df82') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/command-block_1.prefab
+  artifactKey: Guid(11af7b58f228e4542b9e0b86a01c65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/command-block_1.prefab using Guid(11af7b58f228e4542b9e0b86a01c65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cffba4dd613d72f116896a33e46f0ff') in 0.017132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/deltafate/charakter 5/centra.png
+  artifactKey: Guid(18a8c59dfaa34f049acff0f8f6dd43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/centra.png using Guid(18a8c59dfaa34f049acff0f8f6dd43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99ef700d25a71b30472254c66a3b638') in 0.026404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/dx master.prefab
+  artifactKey: Guid(51f9c78aa19a40846bbe0a5a68a431b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/dx master.prefab using Guid(51f9c78aa19a40846bbe0a5a68a431b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d14d7e4353708de583e6d548170e50') in 0.042994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/maar unauticna 1.png
+  artifactKey: Guid(cc254807152ad1849a1e20c296fa71b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/maar unauticna 1.png using Guid(cc254807152ad1849a1e20c296fa71b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3427500ad6245217e1d8206f7e0ab8') in 0.017873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik 1.png
+  artifactKey: Guid(0400158a847eda247bf0f32fb9720261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik 1.png using Guid(0400158a847eda247bf0f32fb9720261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947215de05385c930ac6177ea089543') in 0.023874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/deltafate/charakter 5/debug net.png
+  artifactKey: Guid(bd658c94cbd4a4147b4a34529de936d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/debug net.png using Guid(bd658c94cbd4a4147b4a34529de936d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96b4b7513c24f946d850ac684e160ea') in 0.043851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/cool cam.prefab
+  artifactKey: Guid(516b64da5e0c8bf4c83ed155768aaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/cool cam.prefab using Guid(516b64da5e0c8bf4c83ed155768aaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3514095dbaa7d2488dbd7a70b6e74c') in 0.034264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/Drax sword.png
+  artifactKey: Guid(4b1d7e0a88fe94045bf2e5ca1c0d8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Drax sword.png using Guid(4b1d7e0a88fe94045bf2e5ca1c0d8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aff00ccfa4c9e04d079adfc7fdb540') in 0.019800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate-knp347as.png
+  artifactKey: Guid(b39da49a371362e4694d4e77fb5374ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate-knp347as.png using Guid(b39da49a371362e4694d4e77fb5374ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b391d795d561bae6057b75b375d5') in 0.472430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/deltafate/charakter 5/mn 9.png
+  artifactKey: Guid(96620dc3fe9ca324a9afc245334805a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn 9.png using Guid(96620dc3fe9ca324a9afc245334805a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12558fbaed5d948acae136651939e07e') in 0.062246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/deltafate/charakter 5/Kiskis.mp3
+  artifactKey: Guid(5b07e8805b8dfcc4fac5b6018f3d13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Kiskis.mp3 using Guid(5b07e8805b8dfcc4fac5b6018f3d13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff49df8ceacc8c5deab0c022914c3a1') in 0.076607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 2.prefab
+  artifactKey: Guid(4eb78f7716214284998db0e770ccd38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 2.prefab using Guid(4eb78f7716214284998db0e770ccd38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a131f09f203e1f45cb81862503fd5a') in 0.321166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/deltafate/charakter 5/bonetrousle.ogg
+  artifactKey: Guid(bf1e1b6c4c3b1454ba7dfbf035a737b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/bonetrousle.ogg using Guid(bf1e1b6c4c3b1454ba7dfbf035a737b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d85572a290c3c8e22051c2c3560f572') in 0.156506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/deltafate/charakter 5/5s.prefab
+  artifactKey: Guid(e77ed1f7214db5642b00a8229563dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/5s.prefab using Guid(e77ed1f7214db5642b00a8229563dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96324121638a3aaee9c2c0a909e57841') in 0.190086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/DF ERROR.prefab
+  artifactKey: Guid(766c0f852b6141647a82bbd09f4b6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DF ERROR.prefab using Guid(766c0f852b6141647a82bbd09f4b6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b4cadaece9047ef4fcff5a58407bf5') in 0.041261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 5.prefab
+  artifactKey: Guid(5783f64cdfe2e6f41a60e893f898629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 5.prefab using Guid(5783f64cdfe2e6f41a60e893f898629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e1d4eb278128552a6d3f4659157bdf') in 0.063516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (5).prefab
+  artifactKey: Guid(b30943d8e314eca40bb3143ecf033f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (5).prefab using Guid(b30943d8e314eca40bb3143ecf033f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c223823a378d26889a2a0b824aab60f') in 0.022112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/deltafate/charakter 5/fantom.png
+  artifactKey: Guid(e4ed891759931bf4e9c73719b7f4dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/fantom.png using Guid(e4ed891759931bf4e9c73719b7f4dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edd600b1b3306e477f88affffa44bfd') in 0.025320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/Kiber_siti.mp3
+  artifactKey: Guid(9662c3c90c1d247449760eb64259544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Kiber_siti.mp3 using Guid(9662c3c90c1d247449760eb64259544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd089f1098631df59ab1f4f6b0b4ba51') in 0.034493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/down_kiber_siti.png
+  artifactKey: Guid(b9cf647d539aa1f4bb487ac6bdede58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/down_kiber_siti.png using Guid(b9cf647d539aa1f4bb487ac6bdede58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a547d6241ac20d9795f27c899275a83') in 0.123121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/Df-bender.png
+  artifactKey: Guid(1c45beb97070ecc4cb4fb50527cb7eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Df-bender.png using Guid(1c45beb97070ecc4cb4fb50527cb7eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e2f29d8a0b147c1e0ffa33c3644bfd') in 0.026769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/deltafate/charakter 5/DF ERROR.png
+  artifactKey: Guid(a955ea13484482942b00c9accdb68df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DF ERROR.png using Guid(a955ea13484482942b00c9accdb68df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71484b713dd320516c3c7eb836f6e9b9') in 0.017969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/car 1.prefab
+  artifactKey: Guid(69e3e0558c05a814fa5ef2f8a4b1948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/car 1.prefab using Guid(69e3e0558c05a814fa5ef2f8a4b1948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd60741de37751392e368d00ff8bd4') in 0.015307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/deltafate megalovania.mp4
+  artifactKey: Guid(d62c8e658ff0d184e913c14699a2ce45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/deltafate megalovania.mp4 using Guid(d62c8e658ff0d184e913c14699a2ce45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974663ebda6ae64a4e55d2d51683226c') in 0.048967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1.prefab
+  artifactKey: Guid(1b273a8d8b278b74990f61cc72e82f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1.prefab using Guid(1b273a8d8b278b74990f61cc72e82f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1cfc9dfd06ed6cd97ad54f6acc5d60') in 0.175018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/deltafate/charakter 5/mn 9_0.prefab
+  artifactKey: Guid(0c48207d8046a04489de6425e72eeea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn 9_0.prefab using Guid(0c48207d8046a04489de6425e72eeea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fece443d644c4530203364ba3555860') in 0.016468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/deltafate/charakter 5/Er.mp3
+  artifactKey: Guid(6629ccb7c1b3dbf4586555eaef2cf818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Er.mp3 using Guid(6629ccb7c1b3dbf4586555eaef2cf818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e008efe94d8ad0ab75c3de44a97e44') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/mifi 1.png
+  artifactKey: Guid(8739d1b24bd8a7b418439db2596e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mifi 1.png using Guid(8739d1b24bd8a7b418439db2596e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde9afc2202baefc3ac0a9347c32684') in 0.069646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/mn df max.png
+  artifactKey: Guid(935bf700e27b34845875a43157812e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn df max.png using Guid(935bf700e27b34845875a43157812e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5817c9d45b2ffa1590de71ba9b46ea80') in 0.052596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/deltafate/charakter 5/arua1.mp3
+  artifactKey: Guid(4b99e7f9503696149bffa59f591d52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/arua1.mp3 using Guid(4b99e7f9503696149bffa59f591d52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b2ac72bea502b73b7c25fc84981144') in 0.037501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/Mifi-1.mp3
+  artifactKey: Guid(71577392f4d191a4d9fd48707ab77097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Mifi-1.mp3 using Guid(71577392f4d191a4d9fd48707ab77097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d7f67fa78304378ebd0e185e85991d') in 0.045305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate 2.png
+  artifactKey: Guid(1f4d37e716c088f4c8485e0e07fced6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate 2.png using Guid(1f4d37e716c088f4c8485e0e07fced6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c274e2fa57380517d773005bdc99cc') in 0.326097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/god.png
+  artifactKey: Guid(82619f8fc525baa4dbcf86b6c2e4f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/god.png using Guid(82619f8fc525baa4dbcf86b6c2e4f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd982f0d0fea68579b273cf5e6499d') in 0.033985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1).prefab
+  artifactKey: Guid(5f61e80070df81643b45a27c135aec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1).prefab using Guid(5f61e80070df81643b45a27c135aec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418032904812e1afdd9db541b1f223d1') in 0.089164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/deltafate/charakter 5/fifkin-rtkbp5ry.png
+  artifactKey: Guid(06f3981ab0bbcc2488960bfb032559b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/fifkin-rtkbp5ry.png using Guid(06f3981ab0bbcc2488960bfb032559b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ef43698e4580fc9a67b5816d0c55d6') in 0.026979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/mn df max_1.prefab
+  artifactKey: Guid(fbb8cdeaee68be543a76cab07cd71111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn df max_1.prefab using Guid(fbb8cdeaee68be543a76cab07cd71111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d83952b964eaac0e5d7505044b91f5') in 0.019359 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3656.
+Memory consumption went from 139.1 MB to 137.8 MB.
+Total: 8.609800 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.201600 ms MarkObjects: 7.250600 ms  DeleteObjects: 0.752600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 786.502532 seconds.
+  path: Assets/deltafate/charakter 5/2 2 1.prefab
+  artifactKey: Guid(54b12d859fc4df34bbbc8efb79e92942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2 1.prefab using Guid(54b12d859fc4df34bbbc8efb79e92942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4b047005e89d6fdb6527e65b0dc706') in 0.158808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1 3.prefab
+  artifactKey: Guid(31103114a4e987a46b18bc2a6ff0f964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1 3.prefab using Guid(31103114a4e987a46b18bc2a6ff0f964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05b7b586c1703e7ce6933c3f8cf7f86') in 0.100706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/2 2.png
+  artifactKey: Guid(d908018ea2bf9aa48bf722b2221f25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2.png using Guid(d908018ea2bf9aa48bf722b2221f25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1492eeb87e37262f40439e6c8ffa019') in 0.049519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 3.prefab
+  artifactKey: Guid(81721413ad40e164880d1a35432ced4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 3.prefab using Guid(81721413ad40e164880d1a35432ced4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c5c77f67b3442ff2c4866c535cd6fd') in 0.190538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/deltafate/charakter 5/3 я глава 1.png
+  artifactKey: Guid(ef033ed4aec0b6c4b91a98a753f49e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/3 я глава 1.png using Guid(ef033ed4aec0b6c4b91a98a753f49e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1794ba1ed4a4566cdbce6a9abb8053c3') in 0.042845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 1.prefab
+  artifactKey: Guid(96314b503d2c5e3499d48c24225e6785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 1.prefab using Guid(96314b503d2c5e3499d48c24225e6785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5d0d6b5c296978931930f3cfecba87') in 0.073191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/naserif.png
+  artifactKey: Guid(38b02b3e6d600034b9a658795835e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/naserif.png using Guid(38b02b3e6d600034b9a658795835e471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea5d2f955e84db823b9fa1e58ca18fb') in 0.044588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/deltafate/charakter 5/2 3 (1) 1.prefab
+  artifactKey: Guid(084c6bb355cde774e8cc16b8ee629f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3 (1) 1.prefab using Guid(084c6bb355cde774e8cc16b8ee629f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe331fa744e529b3b219cb73ab707cb0') in 0.115041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/2 3 (1).prefab
+  artifactKey: Guid(02629a5b8a185e843a5e96cb7138ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3 (1).prefab using Guid(02629a5b8a185e843a5e96cb7138ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4093eea181c36ff138cc90f1f284b89a') in 0.065581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/deltafate/charakter 5/deltarune joctick.png
+  artifactKey: Guid(b242673a94c0cce41bf14d5efd9963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/deltarune joctick.png using Guid(b242673a94c0cce41bf14d5efd9963e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0514d848bea456bd76563e43bc92fe45') in 0.037853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/deltafate/charakter 5/mifi.png
+  artifactKey: Guid(9f96e3ef4cf24d543844d37b7957b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mifi.png using Guid(9f96e3ef4cf24d543844d37b7957b083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9af56a05d366f94b4db1b2e5d2b8240') in 0.052695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/deltafate/charakter 5/Drax.png
+  artifactKey: Guid(fad5ac8e4eea74e4989004b0dc379815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Drax.png using Guid(fad5ac8e4eea74e4989004b0dc379815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788491aa9c29c2eb2add4544763cab05') in 0.056809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/maar unauticna.png
+  artifactKey: Guid(6f25e9908fdc814469cae8381bab1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/maar unauticna.png using Guid(6f25e9908fdc814469cae8381bab1b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9963ae7f712bd7aa97e0048ee278e63b') in 0.059514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/2 3.png
+  artifactKey: Guid(9fd3ce510310b77409756bed1a26dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 3.png using Guid(9fd3ce510310b77409756bed1a26dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810d98538125aebcd3ffe7d586d18f5e') in 0.020673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/home.png
+  artifactKey: Guid(6756009df76809e4f94adc5d841d7b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/home.png using Guid(6756009df76809e4f94adc5d841d7b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed9790bc483ad9188ab841e6ab284ac') in 0.194588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1 (2).prefab
+  artifactKey: Guid(b1198eacb1db8a34b89419c3875f9444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1 (2).prefab using Guid(b1198eacb1db8a34b89419c3875f9444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea11f8c90b459bc92044f409f62baf') in 0.125516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/2 2.prefab
+  artifactKey: Guid(4ee2c26e70f2a9c4c89a350ac6343017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/2 2.prefab using Guid(4ee2c26e70f2a9c4c89a350ac6343017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0cbeae2064ad18fa091ea926654409') in 0.076239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/deltafate/charakter 5/au what 1.png
+  artifactKey: Guid(3c5fc8d29c7527d43b79b615080e1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/au what 1.png using Guid(3c5fc8d29c7527d43b79b615080e1ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65b6133caee2b9e46193584f4bd5443') in 0.067295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/deltafate/charakter 5/GameObject.prefab
+  artifactKey: Guid(8cc3ee5cd0412cb44931db023f737975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject.prefab using Guid(8cc3ee5cd0412cb44931db023f737975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e73b5ef0710d426fb7a38adca2b391') in 0.121052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 4.prefab
+  artifactKey: Guid(83ae6ee2b59429b4cab7e502c796b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 4.prefab using Guid(83ae6ee2b59429b4cab7e502c796b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ea6eac85c9ff1838b15077bf496bbe') in 0.130089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/contact.png
+  artifactKey: Guid(d584f33e20decea458f48ee0417485e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/contact.png using Guid(d584f33e20decea458f48ee0417485e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda5dd4f77989b83c1c2fcd4bcaeec6f') in 0.029901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik.png
+  artifactKey: Guid(44afb87eea32e7246985cb9662338685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik.png using Guid(44afb87eea32e7246985cb9662338685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd260e8a612bdc3de7e2dd90818263a') in 0.039272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/4 BigSet.png
+  artifactKey: Guid(1af5f37e564cdb047bf4994fd6ca50bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/4 BigSet.png using Guid(1af5f37e564cdb047bf4994fd6ca50bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e5f1b4007a671d9ced65356d4c2e8a') in 0.676481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/deltafate/charakter 5/cat.png
+  artifactKey: Guid(3f4b80a920f22634781f5c7128f73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/cat.png using Guid(3f4b80a920f22634781f5c7128f73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a60ed68a333e86df6a4bea7c81d615') in 0.052274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/alexandr unautina full size.png
+  artifactKey: Guid(0e8bf9766ee6994408e1e4d836a906b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/alexandr unautina full size.png using Guid(0e8bf9766ee6994408e1e4d836a906b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4208cf469243e72cdc6ff5178f673cf6') in 0.052335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik 2.png
+  artifactKey: Guid(eeeea094fc6aaa44c99cb436edb93250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik 2.png using Guid(eeeea094fc6aaa44c99cb436edb93250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462244cf6a7dd2e0e521ed558fb5e13') in 0.049398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/au what.png
+  artifactKey: Guid(22f5598c2c455f64cbddd0be85f22ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/au what.png using Guid(22f5598c2c455f64cbddd0be85f22ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1449a8f98de7e4d21909af5a2e3437e6') in 0.072470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/deltafate/charakter 5/command-block_1.prefab
+  artifactKey: Guid(11af7b58f228e4542b9e0b86a01c65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/command-block_1.prefab using Guid(11af7b58f228e4542b9e0b86a01c65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880a414d16f99273755be62e759e7e73') in 0.056235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/centra.png
+  artifactKey: Guid(18a8c59dfaa34f049acff0f8f6dd43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/centra.png using Guid(18a8c59dfaa34f049acff0f8f6dd43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ac7e385056fbe1d10ab08fe7bfb3d3') in 0.058389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/DX alexandr unaticna.png
+  artifactKey: Guid(c8ff371ba33f7704fbfe14673c90b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DX alexandr unaticna.png using Guid(c8ff371ba33f7704fbfe14673c90b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c816e1a0c33105081f6be26ddfd2a4db') in 0.058356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/maar unauticna 1.png
+  artifactKey: Guid(cc254807152ad1849a1e20c296fa71b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/maar unauticna 1.png using Guid(cc254807152ad1849a1e20c296fa71b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d99085a942e27dc8860a0aeb4a992f') in 0.059846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/dx master.prefab
+  artifactKey: Guid(51f9c78aa19a40846bbe0a5a68a431b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/dx master.prefab using Guid(51f9c78aa19a40846bbe0a5a68a431b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec45aab4903178d124e53718eb869d4') in 0.575052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/deltafate/charakter 5/debug net.png
+  artifactKey: Guid(bd658c94cbd4a4147b4a34529de936d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/debug net.png using Guid(bd658c94cbd4a4147b4a34529de936d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdbc42f0f36050a581b69669beb8098') in 0.118827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/deltafate/charakter 5/cool cam.prefab
+  artifactKey: Guid(516b64da5e0c8bf4c83ed155768aaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/cool cam.prefab using Guid(516b64da5e0c8bf4c83ed155768aaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7a44c26bc6dafca0b71fc17d630e06') in 0.031354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/Drax sword.png
+  artifactKey: Guid(4b1d7e0a88fe94045bf2e5ca1c0d8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Drax sword.png using Guid(4b1d7e0a88fe94045bf2e5ca1c0d8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c0cb281c2888eecc6dba79e373ef93') in 0.065166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/deltafate/charakter 5/malish-steleratik 1.png
+  artifactKey: Guid(0400158a847eda247bf0f32fb9720261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/malish-steleratik 1.png using Guid(0400158a847eda247bf0f32fb9720261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c554590b256c7094f8901010866f4e29') in 0.029025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate-knp347as.png
+  artifactKey: Guid(b39da49a371362e4694d4e77fb5374ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate-knp347as.png using Guid(b39da49a371362e4694d4e77fb5374ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5088e2546f0df1b2b7ac70e23f690666') in 0.244632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio Source 3.prefab
+  artifactKey: Guid(1fb4056f2921bfd47ba03a5ffdbf8bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Source 3.prefab using Guid(1fb4056f2921bfd47ba03a5ffdbf8bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446b0ab6c7e8bc64762503861c72021e') in 0.009817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GameObject (3).prefab
+  artifactKey: Guid(6c49ae7d4c01340448f165d28b1f2f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject (3).prefab using Guid(6c49ae7d4c01340448f165d28b1f2f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d2b93c599374c65ff38ddc9ac0fecf') in 0.033674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Camera Profile 1.asset
+  artifactKey: Guid(c403ba056702ddd4a97750ac79ad48d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera Profile 1.asset using Guid(c403ba056702ddd4a97750ac79ad48d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd917f24c17a27b2e5767b13256a9e79d') in 0.025716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio Source 2.prefab
+  artifactKey: Guid(a427e9343e2b5264e80308ee10e541e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Source 2.prefab using Guid(a427e9343e2b5264e80308ee10e541e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8225795d5fc2edbf2843230e9d60ca') in 0.013211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/naff_9 1.prefab
+  artifactKey: Guid(7b6592919340b2045b746ede0e69c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naff_9 1.prefab using Guid(7b6592919340b2045b746ede0e69c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedbc64e83a2d7a3c7f4e40dbd61aabe') in 0.082161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/naff_9 3.prefab
+  artifactKey: Guid(97855486bbc597647b500f310e8d10fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naff_9 3.prefab using Guid(97855486bbc597647b500f310e8d10fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89719481047ba85fa2f88660dc437c73') in 0.026151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Camera.prefab
+  artifactKey: Guid(3251ac4b0b73423408b8ce31337e2f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera.prefab using Guid(3251ac4b0b73423408b8ce31337e2f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cc5066ec42bbc7f22905be80d40483') in 0.024785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(e78bb2eeb99354c49839edb76aec880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(e78bb2eeb99354c49839edb76aec880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3e8b96ca7a6438a6b9d6d1b7025b2d') in 0.051594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/data.asset
+  artifactKey: Guid(8dc2870cfd3605e45b4abfd900941bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/data.asset using Guid(8dc2870cfd3605e45b4abfd900941bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd4680a8a6cf266d116cd3ccf3a2fe') in 3.463470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/menu.unity
+  artifactKey: Guid(fb9cc72222138b448819f4f025bbeaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu.unity using Guid(fb9cc72222138b448819f4f025bbeaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7eee5dc969312dfa007f6d98da4f03') in 0.007656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/01c536e312abc9e 1.png
+  artifactKey: Guid(3b8551940306a834f8d093303ed88377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01c536e312abc9e 1.png using Guid(3b8551940306a834f8d093303ed88377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713eb93ef9fdeda6a57d100c29b5f90f') in 0.040063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(d92bf2b03c6c6914abc723b2017c0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(d92bf2b03c6c6914abc723b2017c0b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef00cbe4016fcec08b87207078590ec5') in 0.473038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate menu theme.mp3
+  artifactKey: Guid(56d40965a0534f0469ac49e923d2dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate menu theme.mp3 using Guid(56d40965a0534f0469ac49e923d2dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacb41795b2f594edf748c62517ec0c5') in 0.101974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(2f55f3fe3e2d2c442bcfc4db6d8a1138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(2f55f3fe3e2d2c442bcfc4db6d8a1138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a833db93cb721fa32257f3045fb3d7fe') in 0.562984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(a50c082c5ab620b47a19722a64ec5084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(a50c082c5ab620b47a19722a64ec5084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c5ade9a96f990ba565a0bdeef97528') in 0.180934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/scenes.asset
+  artifactKey: Guid(1b95a2ffdb8ca4b4cbc39ed399a23484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes.asset using Guid(1b95a2ffdb8ca4b4cbc39ed399a23484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980afcd3ce1208af89d9beddad38476a') in 0.036902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Square.png
+  artifactKey: Guid(da30d785a0fc5b646ac54dd1fcf039b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Square.png using Guid(da30d785a0fc5b646ac54dd1fcf039b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b6cd6e1f8904251b90964cdb2b4993') in 0.049764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/mn 9.png
+  artifactKey: Guid(96620dc3fe9ca324a9afc245334805a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn 9.png using Guid(96620dc3fe9ca324a9afc245334805a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9206600a68a833c496baebdcf96bab') in 0.064735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/delta-fate_38 1 2 4.prefab
+  artifactKey: Guid(ab387e7f706168e4596239e7072e8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/delta-fate_38 1 2 4.prefab using Guid(ab387e7f706168e4596239e7072e8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731ad4f16ce04cffcf6d9d6ceaec64f2') in 0.978813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/NewAudioMixer 1.mixer
+  artifactKey: Guid(5d0fae52132bc0d4ea06afd70ce0ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer 1.mixer using Guid(5d0fae52132bc0d4ea06afd70ce0ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d5c16858e60318d4f7acc4eb2f3ece') in 0.050010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/01c536e312abc9e_0.prefab
+  artifactKey: Guid(bfea7921672df0c468b92428f844c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01c536e312abc9e_0.prefab using Guid(bfea7921672df0c468b92428f844c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55779eca077de824b9fd307f75422054') in 0.088034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 2.prefab
+  artifactKey: Guid(4eb78f7716214284998db0e770ccd38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 2.prefab using Guid(4eb78f7716214284998db0e770ccd38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4a5583f362c3e38809a0e2fee92bee') in 0.084460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/01c536e312abc9e.png
+  artifactKey: Guid(5f15b32b23666c94d81b356832951988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01c536e312abc9e.png using Guid(5f15b32b23666c94d81b356832951988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f782c80cb88f044e2fcd71a6bf212b0c') in 0.022893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Audio Source 4.prefab
+  artifactKey: Guid(cd56a9ac929360a4f9831db198c7315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Source 4.prefab using Guid(cd56a9ac929360a4f9831db198c7315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed193f120d776316cf56d90a44c672e') in 0.013577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/naff_9 2.prefab
+  artifactKey: Guid(64e88760d54656c48a90deb92f6130c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naff_9 2.prefab using Guid(64e88760d54656c48a90deb92f6130c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785b3364b8fb3060a2ab40ad30ab027a') in 0.018869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Camera Profile.asset
+  artifactKey: Guid(2b7d16917a0963d4dae34685aa673803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera Profile.asset using Guid(2b7d16917a0963d4dae34685aa673803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b76b3f0d8c4fca3690e5d937bf3d8e') in 0.039071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/deltafate/charakter 5/5s.prefab
+  artifactKey: Guid(e77ed1f7214db5642b00a8229563dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/5s.prefab using Guid(e77ed1f7214db5642b00a8229563dd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc0f17923a7f90005205d36e9bc1f2e') in 0.263562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/deltafate/charakter 5/DF ERROR.prefab
+  artifactKey: Guid(766c0f852b6141647a82bbd09f4b6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DF ERROR.prefab using Guid(766c0f852b6141647a82bbd09f4b6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f39e1426ea1c8fbe610ef89ad2bfd5d') in 0.057210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1) 5.prefab
+  artifactKey: Guid(5783f64cdfe2e6f41a60e893f898629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1) 5.prefab using Guid(5783f64cdfe2e6f41a60e893f898629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20038d33f6e450b6dabac943d5dac8d') in 0.082321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (5).prefab
+  artifactKey: Guid(b30943d8e314eca40bb3143ecf033f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (5).prefab using Guid(b30943d8e314eca40bb3143ecf033f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a526935defaa062406fcb8e8d58d20') in 0.031519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/spr_ourheart_0 (1) 2.prefab
+  artifactKey: Guid(b213779d02df70b4da030eb6d940bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spr_ourheart_0 (1) 2.prefab using Guid(b213779d02df70b4da030eb6d940bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c27b789742148784444b766ef8a499') in 0.039702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/fantom.png
+  artifactKey: Guid(e4ed891759931bf4e9c73719b7f4dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/fantom.png using Guid(e4ed891759931bf4e9c73719b7f4dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f456df63883eb9f15d9be2c4bb17013c') in 0.126063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Square 1.png
+  artifactKey: Guid(6053d9ef69b58054d80436116bad0c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Square 1.png using Guid(6053d9ef69b58054d80436116bad0c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b967b637be95f9920e3b37a7a55f5e') in 0.051354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/deltafate/charakter 5/down_kiber_siti.png
+  artifactKey: Guid(b9cf647d539aa1f4bb487ac6bdede58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/down_kiber_siti.png using Guid(b9cf647d539aa1f4bb487ac6bdede58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9be7b4296f2eb5ee0638cc08e0fb288') in 0.090082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/deltafate/charakter 5/Df-bender.png
+  artifactKey: Guid(1c45beb97070ecc4cb4fb50527cb7eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/Df-bender.png using Guid(1c45beb97070ecc4cb4fb50527cb7eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6e1bdd7d7bbd831ddda137471917de') in 0.024849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/DF ERROR.png
+  artifactKey: Guid(a955ea13484482942b00c9accdb68df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/DF ERROR.png using Guid(a955ea13484482942b00c9accdb68df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5517a9ac365b95b1a2f9e6408ce5985') in 0.019380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio Source 1.prefab
+  artifactKey: Guid(33831d955352ebd42815fe2510d7373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Source 1.prefab using Guid(33831d955352ebd42815fe2510d7373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288aee900fe777d7c8e790ad5112ff5') in 0.019198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/гагарин озвучивает лого дф.mp3
+  artifactKey: Guid(265bb05a89a405746834223856670a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/гагарин озвучивает лого дф.mp3 using Guid(265bb05a89a405746834223856670a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cba6519e88ac394b0ddcebaa35a6b9') in 0.087956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/deltafate/charakter 5/car 1.prefab
+  artifactKey: Guid(69e3e0558c05a814fa5ef2f8a4b1948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/car 1.prefab using Guid(69e3e0558c05a814fa5ef2f8a4b1948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4a050cdaa066f5a7c667b1ff4912fb') in 0.048987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Audio Source.prefab
+  artifactKey: Guid(d27f0171bbb924d4bad430cdaa6772e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Source.prefab using Guid(d27f0171bbb924d4bad430cdaa6772e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf5782859933eb07e19b263fe9f4bdc') in 0.020324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/New Text.prefab
+  artifactKey: Guid(910ff9ef89548e047bcd7505cc4d0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Text.prefab using Guid(910ff9ef89548e047bcd7505cc4d0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6699d2d49244621262c3253319af2de') in 0.024508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate_45 1.prefab
+  artifactKey: Guid(1b273a8d8b278b74990f61cc72e82f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate_45 1.prefab using Guid(1b273a8d8b278b74990f61cc72e82f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46db0728f7e207c16914ddc640a22476') in 0.297251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/deltafate/charakter 5/mn 9_0.prefab
+  artifactKey: Guid(0c48207d8046a04489de6425e72eeea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn 9_0.prefab using Guid(0c48207d8046a04489de6425e72eeea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77acc09a87298f2fe70588bef849354') in 0.024130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/deltafate/charakter 5/mn df max.png
+  artifactKey: Guid(935bf700e27b34845875a43157812e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn df max.png using Guid(935bf700e27b34845875a43157812e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23255fc3fd29561b0740c2fa2de910c') in 0.084788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/deltafate/charakter 5/mifi 1.png
+  artifactKey: Guid(8739d1b24bd8a7b418439db2596e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mifi 1.png using Guid(8739d1b24bd8a7b418439db2596e1a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64df5373db95cafe6ab06eea42a787a3') in 0.040022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/naff_9.prefab
+  artifactKey: Guid(8f5e4ec00be724b4dbca8cca4155af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naff_9.prefab using Guid(8f5e4ec00be724b4dbca8cca4155af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dff0042b95e704926b06ebfe787931f') in 0.022085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Arua.wav
+  artifactKey: Guid(8a9255ae90f77ab4e9167d4c99035c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arua.wav using Guid(8a9255ae90f77ab4e9167d4c99035c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70084b6e93f4ea6a64ac1fec33b320f3') in 0.069547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/rayn.prefab
+  artifactKey: Guid(296bc22b69bec9c4787a6f005d84c8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rayn.prefab using Guid(296bc22b69bec9c4787a6f005d84c8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faebd3a506bc4b94e166b40bebf34868') in 0.061190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/New Render Texture.renderTexture
+  artifactKey: Guid(423d40c1aa251174b9bbc2f01c140e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Render Texture.renderTexture using Guid(423d40c1aa251174b9bbc2f01c140e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7e5e5bff093140b6f408beae86b58') in 0.086119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/deltafate/charakter 5/delta-fate 2.png
+  artifactKey: Guid(1f4d37e716c088f4c8485e0e07fced6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/delta-fate 2.png using Guid(1f4d37e716c088f4c8485e0e07fced6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a3ae192a7a46dcfd26769991f74a08') in 0.250064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/deltafate/charakter 5/god.png
+  artifactKey: Guid(82619f8fc525baa4dbcf86b6c2e4f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/god.png using Guid(82619f8fc525baa4dbcf86b6c2e4f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f86841ce3f0272a40c28d90a311691b') in 0.059579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/deltafate/charakter 5/GameObject (1).prefab
+  artifactKey: Guid(5f61e80070df81643b45a27c135aec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/GameObject (1).prefab using Guid(5f61e80070df81643b45a27c135aec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f87c66df6d9c8b55f7ca3c4b33a659') in 0.162255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/deltafate/charakter 5/fifkin-rtkbp5ry.png
+  artifactKey: Guid(06f3981ab0bbcc2488960bfb032559b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/fifkin-rtkbp5ry.png using Guid(06f3981ab0bbcc2488960bfb032559b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d3f20c5492f852bc02600934d5d651') in 0.053353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/deltafate/charakter 5/mn df max_1.prefab
+  artifactKey: Guid(fbb8cdeaee68be543a76cab07cd71111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/deltafate/charakter 5/mn df max_1.prefab using Guid(fbb8cdeaee68be543a76cab07cd71111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57770de5b93ad56446b4497bbd63ec9b') in 0.024229 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.3 MB). Loaded Objects now: 3703.
+Memory consumption went from 90.7 MB to 89.4 MB.
+Total: 12.090700 ms (FindLiveObjects: 0.516300 ms CreateObjectMapping: 0.206300 ms MarkObjects: 10.878700 ms  DeleteObjects: 0.486700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

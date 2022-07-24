@@ -335,6 +335,7 @@ public class Encouter4 : MonoBehaviour
                     s2.patrons[i] -= 1;
                     hp -= guns.IDdamage[f];
                     Debug.Log("damage " + guns.IDdamage[f].ToString());
+                    PlayerPrefs.SetInt("command", 0);
                 }
             }
             if (player.GetComponent<igrok>().playcharacter == 1)
@@ -643,7 +644,7 @@ public class Encouter4 : MonoBehaviour
 
                 player.GetComponent<igrok>().fight = false;
             }
-            if (specattack == 0 && specattack == -1)
+            if (specattack == 0 || specattack == -1)
             {
                 tic2 = 0;
             }
